@@ -1,0 +1,17 @@
+mysql> describe my_vcf;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| chr    | varchar(10) | YES  |     | NULL    |       |
+| pos    | varchar(20) | YES  |     | NULL    |       |
+| id     | varchar(20) | YES  |     | NULL    |       |
+| ref    | varchar(20) | YES  |     | NULL    |       |
+| alt    | varchar(20) | YES  |     | NULL    |       |
+| qual   | varchar(20) | YES  |     | NULL    |       |
+| filter | varchar(50) | YES  |     | NULL    |       |
+| info   | varchar(50) | YES  |     | NULL    |       |
+| sample | varchar(50) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+9 rows in set (0.00 sec)
+
+
