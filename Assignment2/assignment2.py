@@ -23,7 +23,7 @@ for vcfrow in incsvread:				# Run the loop for every record in input csv file
 		db.commit()
 
 dbCursor.execute("""SELECT * FROM my_vcf""")
-# SELECT * FROM my_vcf WHERE qual < 500 and qual > 500
+# SELECT * FROM my_vcf WHERE qual < 500 and qual > 500 unable to do as mutect_immediate.vcf file does not contain values in qual column.
 results = dbCursor.fetchall()
 
 for t in results:
